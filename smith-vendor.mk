@@ -26,6 +26,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/smith/proprietary/vendor/etc/init/hw/init.mmi.charge_only.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.mmi.charge_only.rc \
     vendor/motorola/smith/proprietary/vendor/etc/init/motorola.hardware.audio.adspd@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/motorola.hardware.audio.adspd@1.0-service.rc \
     vendor/motorola/smith/proprietary/vendor/etc/init/vendor.qti.hardware.charger_monitor@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.charger_monitor@1.0-service.rc \
+    vendor/motorola/smith/proprietary/vendor/etc/libnfc-hal-st.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-hal-st.conf \
+    vendor/motorola/smith/proprietary/vendor/etc/libnfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf \
     vendor/motorola/smith/proprietary/vendor/etc/media_profiles_V1_0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_V1_0.xml \
     vendor/motorola/smith/proprietary/vendor/etc/qdcm_calib_data_mipi_mot_cmd_boe_800x600_269.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_mipi_mot_cmd_boe_800x600_269.xml \
     vendor/motorola/smith/proprietary/vendor/etc/qdcm_calib_data_mipi_mot_cmd_boe_876x2142_620.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_mipi_mot_cmd_boe_876x2142_620.xml \
@@ -64,6 +66,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/smith/proprietary/vendor/etc/sensors/config/tmd2725_1.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/tmd2725_1.json \
     vendor/motorola/smith/proprietary/vendor/etc/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf \
     vendor/motorola/smith/proprietary/vendor/etc/sensors/sns_reg_config:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sns_reg_config \
+    vendor/motorola/smith/proprietary/vendor/etc/st54j_conf_ds.txt:$(TARGET_COPY_OUT_VENDOR)/etc/st54j_conf_ds.txt \
+    vendor/motorola/smith/proprietary/vendor/etc/st54j_conf_ss.txt:$(TARGET_COPY_OUT_VENDOR)/etc/st54j_conf_ss.txt \
     vendor/motorola/smith/proprietary/vendor/etc/thermal-engine-smith.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-smith.conf \
     vendor/motorola/smith/proprietary/vendor/etc/vhw.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vhw.xml \
     vendor/motorola/smith/proprietary/vendor/firmware/CAMERA_ICP.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.elf \
