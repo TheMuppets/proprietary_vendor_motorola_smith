@@ -122,19 +122,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/smith/proprietary/vendor/lib64/camera/fdconfigvideolite.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/fdconfigvideolite.bin
 
 PRODUCT_PACKAGES += \
-    libbitmlengine \
-    libcamera_nn_stub \
-    libcamxexternalformatutils \
-    libcamxfacialfeatures \
-    libcamxfdalgo \
-    libcamximageformatutils \
-    libcamxncs \
-    libcamxstatscore \
-    libcamxswprocessalgo \
-    libcamxtintlessalgo \
-    libchilog \
-    libofflinelog \
-    libremosaic_wrapper \
     libtinyalsa-moto \
     motorola.hardware.audio.adspd@1.0-impl \
     motorola.hardware.audio.adspd@1.0 \
@@ -202,9 +189,20 @@ PRODUCT_PACKAGES += \
     camera.qcom \
     com.qti.chi.override \
     libadspd \
+    libbitmlengine \
+    libcamera_nn_stub \
     libcamerapostproc \
+    libcamxexternalformatutils \
+    libcamxfacialfeatures \
+    libcamxfdalgo \
     libcamxfdengine \
     libcamxifestriping \
+    libcamximageformatutils \
+    libcamxncs \
+    libcamxstatscore \
+    libcamxswprocessalgo \
+    libcamxtintlessalgo \
+    libchilog \
     libcom.qti.chinodeutils \
     libipebpsstriping \
     libmmcamera_faceproc \
@@ -213,6 +211,8 @@ PRODUCT_PACKAGES += \
     libmot_flash_aw3643 \
     libmot_lux_standardization \
     libmotgyroextractor \
+    libofflinelog \
+    libremosaic_wrapper \
     libsns_device_mode_stub \
     libsns_fastRPC_util \
     libsns_low_lat_stream_stub \
