@@ -73,22 +73,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/smith/proprietary/vendor/firmware/aw8697_haptic.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_haptic.bin \
     vendor/motorola/smith/proprietary/vendor/firmware/aw8697_osc_rtp_24K_5s.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_osc_rtp_24K_5s.bin \
     vendor/motorola/smith/proprietary/vendor/firmware/aw8697_rtp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_rtp.bin \
-    vendor/motorola/smith/proprietary/vendor/firmware/aw8697_rtp_Attentive.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_rtp_Attentive.bin \
-    vendor/motorola/smith/proprietary/vendor/firmware/aw8697_rtp_Bird_Loop.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_rtp_Bird_Loop.bin \
-    vendor/motorola/smith/proprietary/vendor/firmware/aw8697_rtp_Crazy_Dream.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_rtp_Crazy_Dream.bin \
-    vendor/motorola/smith/proprietary/vendor/firmware/aw8697_rtp_Curve_Ball_Blend.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_rtp_Curve_Ball_Blend.bin \
-    vendor/motorola/smith/proprietary/vendor/firmware/aw8697_rtp_Ether_Shake.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_rtp_Ether_Shake.bin \
-    vendor/motorola/smith/proprietary/vendor/firmware/aw8697_rtp_Hello.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_rtp_Hello.bin \
-    vendor/motorola/smith/proprietary/vendor/firmware/aw8697_rtp_Momentum.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_rtp_Momentum.bin \
-    vendor/motorola/smith/proprietary/vendor/firmware/aw8697_rtp_Moto.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_rtp_Moto.bin \
-    vendor/motorola/smith/proprietary/vendor/firmware/aw8697_rtp_Moto_Retro.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_rtp_Moto_Retro.bin \
-    vendor/motorola/smith/proprietary/vendor/firmware/aw8697_rtp_Natural.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_rtp_Natural.bin \
-    vendor/motorola/smith/proprietary/vendor/firmware/aw8697_rtp_Pyxis.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_rtp_Pyxis.bin \
-    vendor/motorola/smith/proprietary/vendor/firmware/aw8697_rtp_Simple.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_rtp_Simple.bin \
-    vendor/motorola/smith/proprietary/vendor/firmware/aw8697_rtp_Sparse.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_rtp_Sparse.bin \
-    vendor/motorola/smith/proprietary/vendor/firmware/aw8697_rtp_Zero_Hour.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_rtp_Zero_Hour.bin \
-    vendor/motorola/smith/proprietary/vendor/firmware/aw8697_rtp_lighthouse.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_rtp_lighthouse.bin \
-    vendor/motorola/smith/proprietary/vendor/firmware/aw8697_rtp_silk.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_rtp_silk.bin \
     vendor/motorola/smith/proprietary/vendor/firmware/cs35l41-dsp1-spk-cali.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/cs35l41-dsp1-spk-cali.bin \
     vendor/motorola/smith/proprietary/vendor/firmware/cs35l41-dsp1-spk-diag.wmfw:$(TARGET_COPY_OUT_VENDOR)/firmware/cs35l41-dsp1-spk-diag.wmfw \
     vendor/motorola/smith/proprietary/vendor/firmware/cs35l41-dsp1-spk-prot.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/cs35l41-dsp1-spk-prot.bin \
