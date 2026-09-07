@@ -6,8 +6,6 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/motorola/smith
 
 PRODUCT_COPY_FILES += \
-    vendor/motorola/smith/proprietary/recovery/root/vendor/firmware/aw8697_haptic.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/aw8697_haptic.bin \
-    vendor/motorola/smith/proprietary/recovery/root/vendor/firmware/aw8697_rtp.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/aw8697_rtp.bin \
     vendor/motorola/smith/proprietary/recovery/root/vendor/firmware/samsung-boe-se77c-19092701-17800202-smith.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/samsung-boe-se77c-19092701-17800202-smith.bin \
     vendor/motorola/smith/proprietary/recovery/root/vendor/firmware/samsung-csot-se77c-19092706-17800602-smith.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/samsung-csot-se77c-19092706-17800602-smith.bin \
     vendor/motorola/smith/proprietary/recovery/root/vendor/firmware/synaptics-s3601r-19031301-2765e0-smith.tdat:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/synaptics-s3601r-19031301-2765e0-smith.tdat \
