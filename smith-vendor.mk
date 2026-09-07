@@ -228,7 +228,6 @@ PRODUCT_PACKAGES += \
     HotwordEnrollmentOKGoogleWM8280 \
     HotwordEnrollmentXGoogleWM8280 \
     com.android.hotwordenrollment.common.util \
-    charge_only_mode \
     hvdcp_opti \
     android.hardware.biometrics.fingerprint@2.1-service-fpc \
     motorola.hardware.audio.adspd@1.0-service \
