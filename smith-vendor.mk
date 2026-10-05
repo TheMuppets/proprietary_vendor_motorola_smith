@@ -21,7 +21,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/smith/proprietary/vendor/etc/camera/vidhance_calibration:$(TARGET_COPY_OUT_VENDOR)/etc/camera/vidhance_calibration \
     vendor/motorola/smith/proprietary/vendor/etc/charger_fstab.qti:$(TARGET_COPY_OUT_VENDOR)/etc/charger_fstab.qti \
     vendor/motorola/smith/proprietary/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service-fpc.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.biometrics.fingerprint@2.1-service-fpc.rc \
-    vendor/motorola/smith/proprietary/vendor/etc/init/motorola.hardware.audio.adspd@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/motorola.hardware.audio.adspd@1.0-service.rc \
     vendor/motorola/smith/proprietary/vendor/etc/init/vendor.qti.hardware.charger_monitor@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.charger_monitor@1.0-service.rc \
     vendor/motorola/smith/proprietary/vendor/etc/libnfc-hal-st.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-hal-st.conf \
     vendor/motorola/smith/proprietary/vendor/etc/libnfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf \
@@ -103,11 +102,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/smith/proprietary/vendor/lib64/camera/fdconfigvideolite.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/fdconfigvideolite.bin
 
 PRODUCT_PACKAGES += \
-    libtinyalsa-moto \
-    motorola.hardware.audio.adspd@1.0-impl \
-    motorola.hardware.audio.adspd@1.0 \
-    sound_trigger.primary.default \
-    motorola.hardware.audio.adspd@1.0_vendor \
     com.mot.eeprom.mot_cat24c64_s5kgm1sp_eeprom \
     com.mot.eeprom.mot_gt24p64b_s5k3t2sp_eeprom \
     com.qti.sensor.mot_s5k3t2sp \
@@ -202,6 +196,7 @@ PRODUCT_PACKAGES += \
     libswregistrationalgo \
     libvidhance \
     libvl53l1_daemon \
+    motorola.hardware.audio.adspd@1.0 \
     sensors.moto \
     sensors.ssc \
     sensors.tof.vl53l1 \
@@ -211,6 +206,5 @@ PRODUCT_PACKAGES += \
     com.android.hotwordenrollment.common.util \
     hvdcp_opti \
     android.hardware.biometrics.fingerprint@2.1-service-fpc \
-    motorola.hardware.audio.adspd@1.0-service \
     init.qti.chg_policy \
     vl53l1_daemon
