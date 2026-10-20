@@ -6,6 +6,7 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/motorola/smith
 
 PRODUCT_COPY_FILES += \
+    vendor/motorola/smith/proprietary/product/etc/permissions/privapp-permissions-com.google.android.euicc.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-com.google.android.euicc.xml \
     vendor/motorola/smith/proprietary/recovery/root/vendor/firmware/samsung-boe-se77c-19092701-17800202-smith.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/samsung-boe-se77c-19092701-17800202-smith.bin \
     vendor/motorola/smith/proprietary/recovery/root/vendor/firmware/samsung-csot-se77c-19092706-17800602-smith.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/samsung-csot-se77c-19092706-17800602-smith.bin \
     vendor/motorola/smith/proprietary/recovery/root/vendor/firmware/synaptics-s3601r-19031301-2765e0-smith.tdat:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/synaptics-s3601r-19031301-2765e0-smith.tdat \
@@ -201,6 +202,7 @@ PRODUCT_PACKAGES += \
     sensors.ssc \
     sensors.tof.vl53l1 \
     vendor.qti.hardware.camera.postproc@1.0-service-impl \
+    EuiccGoogle \
     HotwordEnrollmentOKGoogleWM8280 \
     HotwordEnrollmentXGoogleWM8280 \
     com.android.hotwordenrollment.common.util \
