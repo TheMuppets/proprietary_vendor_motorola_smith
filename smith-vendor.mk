@@ -209,4 +209,7 @@ PRODUCT_PACKAGES += \
     hvdcp_opti \
     android.hardware.biometrics.fingerprint@2.1-service-fpc \
     init.qti.chg_policy \
+    ssr_diag \
+    ssr_setup \
+    subsystem_ramdump \
     vl53l1_daemon
